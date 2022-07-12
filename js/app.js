@@ -45,7 +45,9 @@ if(myCity[counter][`isCapital`]===true){
 myCity[counter][`communities`].push(`WillowSprings`, `Crestwood`, `RiderRidge`, `Belmont`, `Fox Run`);
 
 counter=0;
+let counter1 =0;
 while(counter< myCity[counter][`communities`].length){
-    console.log(myCity[counter][`communities`]);
+    console.log(myCity[counter][`communities`][counter1]);
+    counter1++;
 }
-counter++;
+counter++
